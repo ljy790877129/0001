@@ -3,11 +3,15 @@
 #nav{
 	height: 50px;
 	margin: 0;
-	background: #EBEBEB;
+	background: rgba(240,240,240,1.00);
 	text-align: center;
-} 
+	line-height: 50px; 
+}
 
-span{
-	color: #00B100;
-	font-size: 20px;
+a{
+	width: 160px;
+	font-family:Microsoft YaHei;
+	color: rgba(50,50,50,1.00);
+	font-size: 16px;
+	
 }
