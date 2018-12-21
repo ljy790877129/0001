@@ -1,16 +1,43 @@
 @charset "utf-8";
 /* CSS Document */
-#nav{
+
+/*initializes the commonly used tags*/
+body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,input,textarea,p{
+	margin:0px;
+	padding: 0px;
+	font-size: 14px;
+}
+
+/*list前的小圆点去掉*/
+ul{
+	list-style: none;
+}
+
+/*使image的边框去掉*/
+img,a img{
+	border: none;
+}
+
+/*set text-decoration value is none*/
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline；
+}
+
+/*#nav{
 	height: 50px;
 	margin: 0;
 	background: rgba(240,240,240,1.00);
 	text-align: center;
 	line-height: 50px; 
 }
-
-a{
+*/
+/*a{
 	width: 160px;
 	font-family:Microsoft YaHei;
 	color: rgba(50,50,50,1.00);
 	font-size: 16px;
-}
+}*/
