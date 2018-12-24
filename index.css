@@ -5,7 +5,7 @@
 body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,input,textarea,p{
 	margin:0px;
 	padding: 0px;
-	font-size: 14px;
+	font-size: 16px;
 }
 
 /*list前的小圆点去掉*/
@@ -20,8 +20,9 @@ img,a img{
 
 /*set text-decoration value is none*/
 a{
-	color: red;
+	color: #323232;
 	text-decoration: none;
+	font-weight: bold;
 }
 
 a:hover{
@@ -29,14 +30,49 @@ a:hover{
 	text-decoration: underline;
 }
 
-/*#nav{
+#header{
+	
+}
+
+#header #top{
+	height: 100px;
+	background: #555555;
+}
+
+#header #top #logo{
+	width: 55px;
+}
+
+#header #nav{
 	height: 50px;
-	margin: 0;
 	background: rgba(240,240,240,1.00);
-	text-align: center;
 	line-height: 50px; 
 }
-*/
+
+#header #banner{
+	height: 300px;
+	background: #cdcdcd;
+}
+/*position width 1000px,HorizontalAligmeng is center*/
+.position{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+
+
+#main{
+	height: 1000px;
+	background: white;
+	line-height: 1000px; 
+}
+
+#footer{
+	height: 100px;
+	background: #F0F0F0;
+	line-height: 100px; 
+}
+
 /*a{
 	width: 160px;
 	font-family:Microsoft YaHei;
