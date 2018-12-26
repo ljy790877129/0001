@@ -21,7 +21,7 @@ img,a img{
 /*set text-decoration value is none*/
 a{
 	color: #323232;
-	text-decoration: none;
+	/*text-decoration: none;*/
 	font-weight: bold;
 }
 
@@ -39,7 +39,6 @@ a{
 }
 
 #header #top .search{
-	
 	float: right;
 	margin: 30px 10px 0 0;
 }
@@ -54,7 +53,10 @@ a{
 	background: rgba(240,240,240,1.00);
 }
 
-
+#header #nav ul{
+	margin: 0 auto;
+	width: 600px;
+}
 
 #header #nav ul li{
 	float: left;
@@ -87,7 +89,6 @@ a{
 #main{
 	height: 1000px;
 	background: white;
-	line-height: 1000px;
 }
 
 #main #leftBody{
@@ -98,6 +99,27 @@ a{
 	float: right;
 	background: #f0f0f0;
 	width: 200px;
+	height: 1000px;
+	padding: 10px;
+}
+
+#main #rightBody .rightDiv1 h2{
+	font-size: 24px;
+	color: red;
+}
+
+#main #rightBody .rightDiv1 ul li{
+	border-bottom: 1px dashed;
+	height: 100px;
+}
+
+#main #rightBody .rightDiv1 ul li a{
+	color: blue;
+	font-weight: normal;
+}
+
+#main #rightBody .rightDiv1 ul li a:hover{
+	color: green;
 }
 
 #footer{
